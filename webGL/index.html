@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Caiman webGL</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body onload="InitDemo();">
+		<canvas id="model_surface" width="800" height="600">
+			Your browser does not support HTML5
+		</canvas>
+		<br>
+		Top width : <input id="c_width_top" type="number" value=""/>
+		Top lengh : <input id="c_length_top" type="number" value=""/>
+		<br>
+		Bot width : <input id="c_width_bot" type="number" value=""/>
+		Bot lengh : <input id="c_length_bot" type="number" value=""/>
+		<br>
+		Length offset : <input id="x_offset" type="number" value=""/>
+		Width offset : <input id="y_offset" type="number" value=""/>
+		<br>
+		Depth : <input id="c_depth" type="number" value=""/>
+		<button id="ok_btn">OK</button>
+		<br>
+		<script type="text/javascript" src="lib/gl-matrix.js"></script>
+		<script type="text/javascript" src="scripts/demo.js"></script>
+	</body>
+</html>
